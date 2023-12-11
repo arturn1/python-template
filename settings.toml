@@ -1,0 +1,6 @@
+[default]
+TITLE = "System"
+PORT = 8000
+EXTENSIONS = [
+    "system.blueprints.restapi"
+]
