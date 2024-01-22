@@ -1,5 +1,31 @@
 # Python API
 
+## Dependências
+
+```
+aniso8601==9.0.1
+blinker==1.7.0
+certifi==2023.11.17
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+dynaconf==3.2.4
+Flask==3.0.1
+Flask-Cors==4.0.0
+Flask-RESTful==0.3.10
+idna==3.6
+itsdangerous==2.1.2
+Jinja2==3.1.3
+MarkupSafe==2.1.4
+python-dotenv==1.0.0
+pytz==2023.3.post1
+requests==2.31.0
+schedule==1.2.1
+six==1.16.0
+urllib3==2.1.0
+Werkzeug==3.0.1
+```
+
 ## Instalação
 
 ### Ambiente Virtual Python (venv)
@@ -8,7 +34,7 @@ Primeiramente, é necessário criar um ambiente virtual Python (venv). Caso não
 
 Para criar o ambiente virtual, execute o comando abaixo no diretório do projeto:
 
-```python3 -m venv system-env```
+```python -m venv system-env```
 
 Ative o ambiente virtual com:
 
